@@ -10,12 +10,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333;
+    background-color: #d0cece; /* Cinza claro */
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: #FFF;
+    color: #333; /* Cinza escuro */
     margin: 20px 0;
 }
 
@@ -33,51 +33,60 @@ h1 {
     align-items: center;
     font-size: 60px;
     font-weight: bold;
-    color: #FFF;
+    color: #333; /* Cinza escuro */
     cursor: pointer;
+    background-color: #ddd; /* Cinza claro */
 }
 .item:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #ccc; /* Cinza médio */
 }
 
 .item.t {
-    border-top: 1px solid #FFF;
+    border-top: 1px solid #333; /* Cinza escuro */
 }
 .item.l {
-    border-left: 1px solid #FFF;
+    border-left: 1px solid #333; /* Cinza escuro */
 }
 .item.r {
-    border-right: 1px solid #FFF;
+    border-right: 1px solid #333; /* Cinza escuro */
 }
 .item.b {
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #333; /* Cinza escuro */
 }
 
 .info {
     width: 300px;
     display: flex;
     margin-top: 30px;
-    border: 1px dotted #FFF;
+    border: 1px solid #333; /* Cinza escuro */
+    border-radius: 5px;
     padding: 10px;
+    background-color: #ddd; /* Cinza claro */
 }
 .infoitem {
     flex: 1;
 }
 .infotitulo {
     text-align: center;
-    color: #FFF;
+    color: #333; /* Cinza escuro */
     margin-bottom: 10px;
 }
 .infocorpo {
     text-align: center;
-    color: #FFF;
+    color: #333; /* Cinza escuro */
     font-size: 20px;
 }
 
 .reset {
-    border: 1px solid #000;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #FFF;
-    padding: 10px;
+    border: none;
+    background-color: #333; /* Cinza escuro */
+    color: #fff; /* Branco */
+    padding: 10px 20px;
     margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.reset:hover {
+    background-color: #222; /* Cinza um pouco mais escuro */
 }
