@@ -3,7 +3,7 @@
 ![image](https://github.com/MrLap/Jogo-da-velha/assets/98500930/08e6f302-9737-4b85-aec8-4bc0b2a4cb48)
 
 
-# Para acessar clique aqui: https://mrlap.github.io/Jogo-da-velha/
+# Para jogar clique aqui: https://leonardo-a-pacheco.github.io/tiktactoe/
 
 Este é um simples jogo da velha implementado em HTML, CSS e JavaScript. Permite que dois jogadores joguem o clássico jogo da velha em um navegador da web.
 
